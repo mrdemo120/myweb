@@ -1,66 +1,57 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
      <head>
           <link rel="icon" href="others/favicon.png" type="image/png">
-          
           <meta charset="UTF-8">
-          
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          
-          <meta http-equiv="X-UA-Compatible" content="ie=edge">
-          <title>Zweb localhost</title>
+          <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+          <title></title>
      </head>
      <body>
-          <h2><bdo dir="rtl"></bdo></h2>
-          <h1 style="text-align: center; font-size: 44px; color: green;">Hello World 👋</h1>
           
-          
-          <ul type="square">
-               <li>apple</li>
-               <li>mango</li>
-          </ul>
-          
-          
-          <ol type="a">
-               <li>pan</li>
-               <li>pancil</li>
-          </ol>
-          
-          
-          <fieldset>
-               <legend>Submit Your Info</legend>
-               <form action="#" method="get">
-                    Fast name <br>
-                    <input type="text" placeholder="Enter Your Fast Name"> <br><br>
-                    Last Name <br>
-                    <input type="text" placeholder="Enter Your Last Name"> <br><br>
-                    Age <br>
-                    <input type="number" placeholder="Enter Your Age"> <br><br>
-                    Male 
-                    <input type="radio" name="same"> <br>
-                    Felame
-                    <input type="radio" name="same"> <br>
+          <h1 style="color: white; text-align: center; background-color: black;">Zweb Parsonal</h1>
+          <form action="#" method="POST">
+               <fieldset>
+                    <legend><b>Sing Up</b></legend>
+                    <h5>Submit your personal info</h5>
+                    <label for="ll">Name</label>
+                    <input name="User" id="ll" type="text" placeholder="Enter Your Name" required> <br><br>
+                    <label for="pp">Number</label>
+                    <input name="number" id="pp" type="number" placeholder="Enter Your Mobile number" required> <br><br>
+                    <label for="jj">Email</label>
+                    <input name="email" id="jj" type="email" placeholder="Enter Your Email" required> <br><br>
+                    <label for="tt">Password</label>
+                    <input name="password" id="tt" type="password" placeholder="password"> <br><br>
+                    Male
+                    <input name="gender" type="radio"> <br>
+                    Female
+                    <input name="gender" type="radio"> <br>
                     Others
-                    <input type="radio" name="same"> <br><br>
-                    <input type="submit" value="send">
-               </form>
-          </fieldset>
+                    <input name="gender" type="radio"> <br><br>
+                    
+                    Choose Your Photo <br>
+                    <input type="file" required> <br><br>
+                    <input type="checkbox" required> I Aggre This Website <a href="others/Index.html(Ck)/Ckindex.html"> Theams & policy</a> <br><br>
+                    <input type="submit" value="Sing Up">
+               </fieldset>
+          </form>
+                    
+          <br><br><br><br>
           
-          
-          <img style="width: 380px;" src="image/img2.jpg" alt="baby">
-          
-          
-          <video controls autoplay muted loop style="width: 380px;">
-               <source src="video/vdo1.mp4">
-          </video>
-               
-               
-          <iframe style="width: 380px; height: 680px;" src="https://fast.com/"></iframe>
-          
-          
-          
-          <h3><a href="https://fast.com/" target="_blank">click</a></h3>
+          <form action="#" method="GET">
+               <fieldset>
+                    <legend><b>Login</b></legend>
+                    <h5>Enter Your Sing up Email Or Number & Password</h5>
+                    <label for="nam">Email/Number</label>
+                    <input name="user" id="nam" type="email" placeholder="Enter Your Email/Number" required> <br><br>
+                    <label for="pass">Password</label>
+                    <input name="pass" id="pass" type="password" placeholder="password" required> <br><br>
+                    <input type="submit" value="Login">
+               </fieldset>     
+          </form>
           
      </body>
      
-</html> 
+     
+</html>
